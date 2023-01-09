@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>3 Web Page</title>
+  <meta charset="utf-8">
+  <style>
+    *{
+      margin : 0px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header {
+      width : 100%;
+      
+    }
+    .container{
+     
+      margin : 0 auto;
+      position: relative;
+      width : 1180px;
+      height : 120px;
+    }
+    .container h1 {
+      position: absolute;
+      left: 10;
+      bottom: 15px;
+    }
+    .container title {
+      font-size: 80px;
+    }
+
+    .container nav {
+      padding-bottom: 20px;
+      position: absolute;    
+      right : 0px;
+      bottom : 0px;
+    }
+
+    .container nav ul{
+      font-weight: bold;
+      list-style-type: none;
+      
+    }
+
+    .container nav ul li{
+      display: inline;
+      padding : 0px 27px 0px 27px;
+    }
+
+    .utility_bar {
+      position: absolute;
+      right: 30px;
+      top : 20px;
+    }
+
+    .utility_bar ul{
+      margin : 0;
+      list-style-type: none;
+    }
+
+    .utility_bar ul li {
+      display: inline;
+    }
+    a{
+      color: black;
+      text-decoration: none;
+    }
+    nav a:hover {     
+      background-color: red;
+    }
+    
+    .contents{ 
+
+      width : 1000px;
+      margin: 0 auto;
+    }
+
+    .contents article{
+      float : left;
+      
+    }
+    article{
+      margin : 2.5px;
+    }
+    .container1{
+      position: relative;
+      width : 700px;
+      height: 400px;
+    }
+
+    .container1 .title {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      font-size:30px;
+      color : white;
+      font-weight: bold;
+    }
+
+    .container2{    
+      position: relative;
+      width : 290px;
+      height: 190px;
+    }
+
+    .container2 .title {
+      position: absolute;
+      top : 50px;
+      left : 10px;
+      font-size:30px;
+      color : white;
+      font-weight: bold;
+    }
+
+    .container3{
+      width : 290px;
+      height: 202.5px;
+    }
+    .container3-1{ 
+      margin-top: 4px; 
+      margin-bottom: 11px;
+      position : relative;   
+      width : 290px;
+      height: 95px;
+    }
+    .container3-2{
+     
+      width : 290px;
+      height: 95px;
+    }
+    .container3-1 .title {
+      position: absolute;
+      right : 10px;
+      bottom : 20px;
+      font-size:30px;
+      color : white;
+      font-weight: bold;
+    }
+
+    .container4{    
+      width : 490px;
+      height: 480px;
+    }
+
+    .container4-1{ 
+      margin-bottom: 7px;
+      position : relative;   
+   
+    }
+    .container4-1 .title {
+      padding-left: 80px;
+      position: absolute;
+      top : 160px;
+      font-size:17px;
+      color : black;
+      font-weight: bold;
+      display : flex;
+      justify-content: center;
+     
+    }
+    .container4-2{
+      position : relative; 
+      
+    }
+    .container4-2 .title {
+    
+      position: absolute;
+      right : 20px;
+      bottom : 30px;
+      font-size:30px;
+      color : gold;
+      font-weight: bold;
+    
+     
+    }
+    .container5{     
+      
+      width : 500px;
+      height: 490px;
+    }
+
+    .container6{  
+      position: relative;  
+      width : 1000px;
+      height: 371px;  
+    }
+    .container6 .title{
+
+      width: 100%;
+      position: absolute;
+      top : 50%;
+      left : 50%;
+      transform: translate(-50%, -50%);
+      display : flex;
+      justify-content: center;
+      font-size: 50px;
+      font-weight: bold;
+    
+      color: white;
+    }
+    .container7{       
+      position: relative; 
+      width : 1000px;
+      height: 361px;
+     
+    }
+ 
+    .container7 .title{
+     display : inline;
+     width: 450px;
+     height: 150px;
+     position: absolute;
+     right: 30px;
+     bottom: 40px;
+     font-size: 20px;
+     color: white;
+     
+}
+  </style>
+</head>
+
+
+  <header> 
+    <div class = "container">     
+        <h1><a href = "index.html">WON LAB</a></h1>
+        <nav>
+          <ul>
+            <li><a href = "#">DEPARTMENT</a></li>
+            <li><a href = "gallery.html">GALLERY</a></li>
+            <li><a href = "#">YOUTUBE</a></li>
+            <li><a href = "#">LOCATION</a></li>
+          </ul>
+        </nav>
+        <div class = "utility_bar">
+          <ul>
+            <li>Contacts</li>
+            <li>Help</li>
+            <li>Login</li>
+            <li>Join</li>
+          </ul>
+        </div>     
+    </div>
+  </header>
+
+  <section class = "contents">
+    <article>
+      <div class = "container1">
+        <img src="./700x400.png" alt="">
+        <span class = "title"> Merry Christmas</span>
+      </div>
+    </article>
+    <article>
+      <div class = "container2">
+        <img src="./290x190.png" alt="">
+        <span class = "title">Frozen</span>
+      </div>
+    </article>
+    <article>
+      <div class = "container3">
+      
+        <div class = "container3-1">
+          <img src="./290x95-1.png" alt="">
+          <span class = "title">Present</span>
+        </div>
+        <div class = "container3-2">
+          <img src="./290x95-2.png" alt="">
+        </div>
+      </div>
+    </article>
+
+    <article>
+      <div class = "container4">
+        <div class = "container4-1">
+          <img src="./490x240-1.png" alt="">
+          <span class = "title">Someone who solves a problem you<br>didn't know you had, in a way that<br>you don't understand.</span>
+        </div>
+        <div class = "container4-2">
+          <img src="./490x240-2.png" alt="">
+          <span class = "title">Be RICH!!</span>
+        </div>
+      </div>
+    </article>
+
+    <article>
+      <div class = "container5">
+        <img src="./500x490.png" alt="">
+      </div>
+    </article>
+
+    <article>
+      <div class = "container6">
+        <img src="./1000x371.png" alt="">
+        <span class = "title">Life is entirely Y.O.U.R.S</span>
+      </div>
+    </article>
+
+    <article>
+      <div class = "container7">
+        <img src="./1000x361.png" alt="">
+        <span class = "title"><font size = "30px"><b>Programmer</b></font> is the perfect future.Let's be <font size="30px"><b>the Digital Nomad!</b></font></span>
+      </div>
+    </article>
+  </section>
+
+
+</html>
